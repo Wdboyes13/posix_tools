@@ -8,6 +8,7 @@ Utilities aim to be compliant with IEEE Std 1003.1-2024 Volume XCU\
 The following exceptions are present
 
 - On utilities which according to IEEE Std 1003.1-2024 their execution is affected by the LANG, LC_ALL, LC_CTYPE, LC_MESSAGES, and NLSPATH environment variables, the execution of such utilities in this implementation is not affected by the LANG, LC_ALL, LC_CTYPE, LC_MESSAGES, and NLSPATH environment variables.
+- For the "echo" utility it is specified by IEEE Std 1003.1-2024 that it shall support the special "\0num" character sequences, in this implementation the "\0num" character sequence is ignored.
 
 ## Licensing
 
